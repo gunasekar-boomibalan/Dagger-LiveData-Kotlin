@@ -28,4 +28,5 @@ class SampleAdapter(val list: List<Note>) : RecyclerView.Adapter<SampleAdapter.V
             textViewName.text = note.title
         }
     }
+
 }
